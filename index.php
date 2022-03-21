@@ -8,10 +8,9 @@
 </head>
 <body>
     <?php
-<pre>
-var_dump($_ENV);
-</pre>
-
-?>
+    echo '<pre>';
+    var_dump($_ENV);
+    echo '</pre>';
+    ?>
 </body>
 </html>
